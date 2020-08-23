@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Error</title>  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+        <style type="text/css">
+
+            .app-title {
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                height: auto;
+            }
+
+            .app-title-text {
+                font-family: 'Grand Hotel', cursive;
+                font-size: 50px;
+                display:inline-block;
+                vertical-align: middle;
+            }
+
+            .app-logo {
+                height: 90px;
+                width: 90px;
+                display:inline-block;
+                vertical-align: middle;
+            }
+            
+            h1 {
+                text-align: center;
+                font-family: sans-serif;
+                margin-top: 30px
+            }
+
+            hr {
+                display: block;
+                height: 1px;
+                border: 2px;
+                border-radius: 10px;
+                background-color: #D9D9D9;
+                border-top: 1px solid #ccc;
+                margin: 5px 10px 5px 10px;
+            }
+
+            .message {
+                font-family: sans-serif;
+                text-align: center;
+                font-size: 16px
+            }
+
+            .check-icon {
+                margin-top: 15px;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <div class="app-title">
+            <img src="http://your-ip-address:4000/app_logo.png" alt="app_logo" class="app-logo"/>
+            <div class="app-title-text">App Title</div>
+        </div>		
+        
+        <div><hr/></div>
+
+        <h1>Oops something went wrong!</h1>
+
+        <div class="message">The link you entered might be invalid.</div>
+        <div class="message">Please enter a correct link to verify your email address.</div>
+
+        <div class="check-icon">
+            <i class="fa fa-window-close" style="font-size:60px;color:red;" aria-hidden="true"></i>
+        </div>
+
+    </body>
+
+</html>
